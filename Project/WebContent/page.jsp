@@ -9,7 +9,16 @@
 <body>
 <h1>이승준의 학교 생활</h1>
 <img src="images/school.gif" width="350" height="250">
-<p>저의 학교 생활은 순탄하지만은 않았습니다. 왜냐하면 저는 매우 활발한 아이였기 때문에 사고도 많이 치는 개구쟁이 였습니다.</p>
+<p>나 이승준은 학교생활도 매우 활기차게 생활했습니다.</p>
+<img src="images/happy.gif" width="300" height="250">
+<input type="button" value="메인으로" id="btn" />
+
 
 </body>
+<script>
+	document.getElementById("btn").addEventListener("click", function(){
+		location.href = "./";
+	})
+
+</script>
 </html>

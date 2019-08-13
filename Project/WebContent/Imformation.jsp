@@ -17,6 +17,9 @@
 <p>저는 2004년 9월 5일 허우재 병원에서 태어났습니다.</p>
 <p>돌잔치 때는 마우스를 잡았다고 하십니다.</p>
 <p>어렀을떄 부터 모바일 기기나 컴퓨터를 굉장히 좋아 했습니다.</p>
+<input type="button" value="메인으로" id="btn" />
+
+
 
 
 
@@ -24,4 +27,10 @@
 
 </div>
 </body>
+<script>
+	document.getElementById("btn").addEventListener("click", function(){
+		location.href = "./";
+	})
+
+</script>
 </html>
