@@ -1,17 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>page</title>
 </head>
 <body>
-<h1>ÀÌ½ÂÁØÀÇ ÇÐ±³ »ýÈ°</h1>
+<h1>ì´ìŠ¹ì¤€ì˜ í•™êµ ìƒí™œ</h1>
 <img src="images/school.gif" width="350" height="250">
-<p>³ª ÀÌ½ÂÁØÀº ÇÐ±³»ýÈ°µµ ¸Å¿ì È°±âÂ÷°Ô »ýÈ°Çß½À´Ï´Ù.</p>
+<p>ë‚˜ ì´ìŠ¹ì¤€ì€ í•™êµìƒí™œë„ ë§¤ìš° í™œê¸°ì°¨ê²Œ ìƒí™œí–ˆìŠµë‹ˆë‹¤.</p>
 <img src="images/happy.gif" width="300" height="250">
-<input type="button" value="¸ÞÀÎÀ¸·Î" id="btn" />
+<input type="button" value="ë©”ì¸ìœ¼ë¡œ" id="btn" />
 
 
 </body>

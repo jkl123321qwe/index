@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -15,8 +15,8 @@
 			<thead>
 				<tr>
 					<th colspan="2"
-						style="background-color: #eeeeee; text-align: center;">ÀÌ½ÂÁØÀÇ
-						ÀÌ¾ß±â</th>
+						style="background-color: #eeeeee; text-align: center;">ì´ìŠ¹ì¤€ì˜
+						ì´ì•¼ê¸°</th>
 
 				</tr>
 
@@ -27,13 +27,13 @@
 				<tr>
 
 					<td><input type="text" class="form-control"
-						placeholder="ÀÛ¼ºÀÚÀÌ¸§" name="name" size="50" maxlength="50" /></td>
+						placeholder="ì‘ì„±ìì´ë¦„" name="name" size="50" maxlength="50" /></td>
 
 				</tr>
 
 				<tr>
 
-					<td><textarea class="form-control" placeholder="ÇÏ°í½ÍÀº ÀÌ¾ß±â"
+					<td><textarea class="form-control" placeholder="í•˜ê³ ì‹¶ì€ ì´ì•¼ê¸°"
 							name="content" rows="20" cols="50" style="height: 350px;"></textarea></td>
 
 				</tr>
@@ -43,8 +43,8 @@
 			<tfoot>
 				<tr>
 					<td>
-					<input type="submit" value="ÀÛ¼ºÇÏ±â" />
-					<input type="button" value="¸ŞÀÎÀ¸·Î" id="btn" />
+					<input type="submit" value="ì‘ì„±í•˜ê¸°" />
+					<input type="button" value="ë©”ì¸ìœ¼ë¡œ" id="btn" />
 				</tr>
 			</tfoot>
 		</table>
