@@ -37,8 +37,7 @@
             location.href="LoginForm.jsp";
         }
     </script>
-</body>
-</html>
+
 
     <div id="wrap">
         <br><br>
@@ -47,16 +46,13 @@
         
         
         
-        <form method="post" action="../pro/JoinPro.jsp" name="userInfo" 
-                onsubmit="return checkValue()">
+        <form method="post" action="joinpro.jsp" name="userInfo" >
             <table>
                 <tr>
                     <td id="title">아이디</td>
                     <td>
                         <input type="text" name="id" maxlength="50">
-                        <input type="button" value="중복확인" id="btn1" /> 
-                        
-                    
+                       
                     </td>
                 </tr>
                         
@@ -80,14 +76,13 @@
                         <input type="text" name="name" maxlength="50">
                     </td>
                 </tr>
+                  <td id="title">전화번호</td>
+                    <td>
+                        <input type="text" name="number" maxlength="50">
+                    </td>
                     
                 <tr>
-                    <td id="title">성별</td>
-                    <td>
-                        <input type="radio" name="gender" value="남" checked>남
-                        <input type="radio" name="gender" value="여" checked>여
-                    </td>
-                </tr>
+                                    </tr>
                     
  
             </table>
@@ -101,11 +96,6 @@
 	document.getElementById("btn").addEventListener("click", function(){
 		location.href = "login.jsp";
 	})
-	document.getElementById("btn1").addEventListener("click", function(){
-		location.href = "ggg.jsp";
-	})
-
-
 </script>
 </html>
 

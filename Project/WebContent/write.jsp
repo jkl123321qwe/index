@@ -27,7 +27,7 @@
 				<tr>
 
 					<td><input type="text" class="form-control"
-						placeholder="작성자이름" name="name" size="50" maxlength="50" /></td>
+						placeholder="작성자이름" name="name" value="<%=session.getAttribute("id") %>" size="50" maxlength="50" /></td>
 
 				</tr>
 

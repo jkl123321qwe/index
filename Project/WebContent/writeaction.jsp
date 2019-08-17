@@ -22,4 +22,6 @@ pstmt.executeUpdate();
 pstmt.close();
 conn.close();
 
+response.sendRedirect("newwrite.jsp");
+
 %>

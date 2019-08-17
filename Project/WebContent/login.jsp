@@ -9,7 +9,7 @@
 <body>
 	<img src="images/login.gif" width="275" height="200">
 	<div id="wrap">
-		<form name="loginInfo" method="post" action="../pro/LoginPro.jsp"
+		<form name="loginInfo" method="post" action="loginpro.jsp"
 			onsubmit="return checkValue()">
 
 
@@ -32,6 +32,12 @@
 	</div>
 </body>
 <script>
+<%
+	if(session.getAttribute("login") != null){
+		out.println("alert('없는 아이디이거나 비밀번호가 틀렸습니다.')");
+	}
+%>
+
 function checkValue()
 {
     inputForm = eval("document.loginInfo");
